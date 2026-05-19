@@ -24,7 +24,7 @@ This project was inspired by my brother’s experience, where multiple job appli
 
 ---
 
-# ✨ Features
+# Features
 
 ## Authentication System
 
@@ -89,7 +89,7 @@ This project was inspired by my brother’s experience, where multiple job appli
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 ## Frontend
 
@@ -127,7 +127,7 @@ This project was inspired by my brother’s experience, where multiple job appli
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```bash
 ATS-Career-Platform/
@@ -139,7 +139,7 @@ ATS-Career-Platform/
 
 ---
 
-# 🚀 Installation & Setup
+# Installation & Setup
 
 ## 1. Clone Repository
 
@@ -205,7 +205,7 @@ backend/config/settings.py
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 * Improve ATS matching accuracy
 * Help users optimize resumes effectively
@@ -215,7 +215,7 @@ backend/config/settings.py
 
 ---
 
-# 📊 Future Improvements
+# Future Improvements
 
 * Real-time job market analysis
 * Advanced AI resume rewriting
@@ -225,7 +225,7 @@ backend/config/settings.py
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 Nang Myat Mary Htun
 
@@ -233,6 +233,6 @@ Final Year Project — AI-Powered CV Matching & Career Intelligence Platform
 
 ---
 
-# 📄 License
+# License
 
 This project is for educational and academic purposes.
