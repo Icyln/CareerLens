@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { 
   FileText, 
   Sparkles, 
@@ -16,7 +17,6 @@ import {
   Briefcase,
   ShieldCheck,
   Globe,
-  Link,
   Plus
 } from 'lucide-react';
 
@@ -107,12 +107,12 @@ export default function CareerLensLanding() {
             </div>
 
             <div className="hidden md:flex items-center gap-4">
-              <button className="text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors px-3 py-2">
+              <Link to='/auth' className="text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors px-3 py-2">
                 Sign In
-              </button>
-              <button className="text-sm font-medium bg-indigo-600 text-white hover:bg-indigo-700 px-4 py-2 rounded-lg transition-colors shadow-sm">
+              </Link>
+              <Link to='/auth' className="text-sm font-medium bg-indigo-600 text-white hover:bg-indigo-700 px-4 py-2 rounded-lg transition-colors shadow-sm">
                 Create Free Account
-              </button>
+              </Link>
             </div>
 
             <div className="md:hidden">
@@ -133,8 +133,8 @@ export default function CareerLensLanding() {
             <a href="#how-it-works" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-zinc-600 hover:bg-zinc-50">How It Works</a>
             <a href="#insights" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-zinc-600 hover:bg-zinc-50">Preview</a>
             <div className="pt-4 border-t border-zinc-200 flex flex-col gap-2">
-              <button className="w-full text-center py-2 text-sm font-medium text-zinc-600 hover:bg-zinc-50">Sign In</button>
-              <button className="w-full text-center py-2 text-sm font-medium bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">Create Free Account</button>
+              <Link to='/auth' className="w-full text-center py-2 text-sm font-medium text-zinc-600 hover:bg-zinc-50">Sign In</Link>
+              <Link to='/auth' className="w-full text-center py-2 text-sm font-medium bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">Create Free Account</Link>
             </div>
           </div>
         )}
@@ -150,7 +150,7 @@ export default function CareerLensLanding() {
               <Sparkles className="w-3.5 h-3.5" /> Built for Modern Job Seekers
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-zinc-900 leading-tight">
-              Get more interviews with a <span className="text-indigo-600">smart resume</span>.
+              Get more interviews with a <span className="text-indigo-600">smart resume</span>
             </h1>
             <p className="text-zinc-600 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Instantly see how well your resume matches any job description. Fix critical missing details, use friendly AI suggestions to rewrite phrases, and download an application-ready file in seconds.
@@ -232,7 +232,7 @@ export default function CareerLensLanding() {
               <div>
                 <div className="text-3xl font-black text-zinc-950 font-mono">93%</div>
                 <p className="text-sm font-bold text-zinc-900 mt-0.5">Land an Interview Fast</p>
-                <p className="text-xs text-zinc-500 mt-1 leading-relaxed">The majority of active platform users receive direct interview callbacks within 30 days of application optimization.</p>
+                <p className="text-xs text-zinc-500 mt-1 leading-relaxed">Receive direct interview callbacks within 30 days of application optimization.</p>
               </div>
             </div>
 
@@ -603,13 +603,8 @@ export default function CareerLensLanding() {
           </div>
 
           {/* Copyright Row */}
-          <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-400 font-medium">
+          <div className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-zinc-400 font-medium text-center">
             <div>CareerLens Platform © 2026. All rights reserved.</div>
-            <div className="flex gap-4 text-zinc-500">
-              <span>Secure Connection AES-256</span>
-              <span>•</span>
-              <span>Optimized Parse Pipelines</span>
-            </div>
           </div>
         </div>
       </footer>
